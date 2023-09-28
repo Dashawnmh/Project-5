@@ -3,46 +3,89 @@
 
 <head>
     <meta name="Dashawn's Personal webpage" content="Learn about Dashawn's journey as a software develepor and talk coffee">
-  <meta <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     img {
       float: right;
     }
   </style>
   <title>My personal page</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+<div>
+<body style="background-color:lightblue;"  id="changecolor" >
+  
+  <div>
+    <p >change page color</p>
+    <div id="lightblue" class="hoverlightblue" style="width: 20px; height: 20px; background-color: lightblue;"></div>
+    <div id="yellow" class="hoveryellow" style="width: 20px; height: 20px; background-color: yellow;"></div>
+    <div id="red" class="hoverred" style="width: 20px; height: 20px; background-color: red; "></div> 
+    <div id="turquoise" class="hoverturquoise" style="width: 20px; height: 20px; margin-bottom: 3rem; background-color: turquoise;"></div>  
+  </div>
+  </div>
 
-<body style="background-color:lightblue;">
-    <ul>
-        <li><a href="mywebsite.html">Home</a></li>
+ <div >
+   <ul>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="projects.html">Projects</a></li>
       <li><a href="blog.html">Blog</a></li>
     </ul>
+
   <header>
-    <p style="text-align:center; color:darkblue;"> MY NEW PERSONAL WEBSITE </p>
-    <h1 class="border"><a href="https://www.linkedin.com/in/dashawn-hogg" class="name">DASHAWN HOGG</a></h1>
+    <p style="text-align:center;"> MY NEW PERSONAL WEBSITE </p>
+    <h1 class="border"><a href="https://www.linkedin.com/in/dashawn-hogg" >DASHAWN HOGG</a></h1>
   </header>
   <div>
-    <main style="background-color:lightblue;">
-      <h3>About Me</h3>
+    <main >
+      <h3 style="padding-top: 75px;">About Me</h3>
       <p><img src="IMG_2458.JPG" alt="dashawn" style="width:150px; 
   height:150px;"> Hello! I'm Dashawn Hogg I currently work with <a href="https://www.hoggbatch.com/" class="hover">hoggbatch</a> as an assistant web developer. I'm a passionate individual with a love for technology, creativity, and making the world a better place through innovation. Welcome to my website, where I share my journey , projects, and thoughts with the world. Subscribe to my <a href="https://youtube.com/@hoggbatchcoffee7848" class="hover">Youtube Channel</a> and follow me on <a href="https://www.facebook.com/dashawn.hogg.39?mibextid=LQQJ4d" class="hover">Facebook</a>.</p>
       <h3> The Purpose of This Website </h3>
       <p> I created this website as a platform to showcase my projects, share my insights, and engage with a like-minded community of enthusiasts, professionals, and learners. Technology has the power to transform lives and drive positive change, and my goal is to contribute to this transformation by creating innovative applications and fostering a culture of continuous learning. </p>
       <h3> How I Got Here </h3>
       <p> I was introduced to coding by trying to get into Amazon Technical Academy. Although I didn't make it into that it sparked my interest and desire to start a career as a software developer/engineer. So when I heard about Correlation-One's program I knew it was the one for me. I'm happy I'm learning with them and creating projects that will show my ability to be a good fit with a great company. </p>
-    </main>
-    <div class="grid-container">
-      <div class="grid-item"><img src="IMG_2471.JPG" alt="dashawn" style="width:150px; 
-  height:150px;"></div>
-      <div class="grid-item"><img src="IMG_E2472.JPG" alt="dashawn" style="width:150px; 
-  height:150px;"></div>
-      <div class="grid-item"><img src="IMG_2497.JPG" alt="dashawn" style="width:150px; 
-  height:150px;"></div>
+     </main>
+
+    
+  <!-- Image slider 1 -->
+
+  <div class="slidecontainer">
+<section class="item">
+  <div class="container2">
+    <div class="project-heading">
+      <h4 class="title">Click the buttons to change the image!</h4>
     </div>
+    <div id="slider">
+      <img src="IMG_2471.JPG" alt="Image 1">
+      <img src="IMG_2497.JPG" alt="Image 2">
+      <img src="IMG_E2472.JPG" alt="Image 3">
+      <img src="IMG_1632.jpg" alt="Image 4">
+      <img src="IMG_4640.jpg" alt="Image 5">
+      <img src="IMG_4974.jpg" alt="Image 6">
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+  </div>
+</section>
+
+<!-- image slider 2 -->
+
+<!-- <section class="item right">
+  <div class="container2">
+    <div class="project-heading">
+      <h4 class="title">Click the buttons to change the image!</h4>
+    </div>
+    <div id="slider">
+      <img src="IMG_1632.jpg" alt="Image 4">
+      <img src="IMG_4640.jpg" alt="Image 5">
+      <img src="IMG_4974.jpg" alt="Image 6">
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+  </div>
+</div>
+</section> -->
     <footer>
       <h2>Contact</h2>
       <label for="fname">First Name:</label>
@@ -57,6 +100,11 @@
     </footer>
   </div>
   <div class="animated-div">THANK YOU!</div>
+</div>
+
+</div>
+</div>
+  <script src="script.js"></script>
 </body>
 
 </html>
